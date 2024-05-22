@@ -1,0 +1,8 @@
+# Arquivos cache
+*.pyc
+
+# Certificados gerados
+saida/
+
+# Arquivos gerados pelo VS Code
+.vscode/
