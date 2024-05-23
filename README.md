@@ -1,14 +1,14 @@
 # Gerador de Certificados
 
 ### Funcionamento:
-Este gerador de certificados carrega os dados como nome e e-mail dos alunos, fornecidos através de um arquivo .CSV, ele também carrega um modelo base do certificado em .PNG e a partir disso, gera um certificado com as informações dos alunos contidas no .CSV
+Para gerar um certificado, são carregados os dados dos alunos fornecidos através de um arquivo .CSV, junto aos dados também é carregado um modelo de certificado em .PNG, a partir disso gera um certificado unindo as informações dos alunos contidas no .CSV com o modelo de certificado, gerando um certificado .PNG
 #
 ### Exemplo:
-Neste exemplo foi utilizada essa imagem como um modelo base para o certificado:
+_Imagem modelo para o certificado_
 
 <img src="modelo/modelo_certificado.png" alt="Exemplo de certificado gerado" style="width:400px;">
 
-Os dados contidos no arquivo .CSV são os seguintes:
+_Dados contidos no arquivo .CSV_
 
 |        nome        |        email        |
 |--------------------|---------------------|
@@ -18,11 +18,11 @@ Os dados contidos no arquivo .CSV são os seguintes:
 |   Nome do Aluno D  |  aluno_d@gmail.com  |
 #
 ### Resultado:
-O gerado carrega os dados so aluno e os escreve sobre o modelo de certificado:
+Os dados do arquivo .CSV são posicionados e escritos sobre o modelo inserido, gerando o certificado:
 
 <img src="modelo/certificado_gerado.png" alt="Exemplo de certificado gerado" style="width:400px;">
 
-O gerador repete o processo para todos os alunos informador no .CSV e armazena os certificados gerados no diretório "saida/" do projeto.
+O gerador repete o processo para todas as linhas da coluna "nome" informado no .CSV, os certificados gerados são armazenados no diretório "saida/" do projeto.
 
 #
 _Esta é uma versão demonstrativa utilizada apenas para estudo de caso_
